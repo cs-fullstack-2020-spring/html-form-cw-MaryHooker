@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="newform.css">
 </head>
+
 <body>
     <form class="container" action="">
 
@@ -14,55 +16,56 @@
         <h2 id="info">User Information</h2>
 
         <div id="First">
-            <label for="firstName" >First Name:</label>
-        <input id="firstName" type="text" placeholder="John" required>
-     </div>
+            <label for="firstName">First Name:</label>
+            <input id="firstName" type="text" placeholder="John" required>
+        </div>
 
         <div>
-            <label for="lastName" >Last Name:</label>
-                <input id="lastName" type="text" placeholder="Smith" required>
+            <label for="lastName">Last Name:</label>
+            <input id="lastName" type="text" placeholder="Smith" required>
         </div>
-        
-        <div >
-        <label for="email" >Email:</label>
-        <input id="email" type="email" placeholder="John@gmail.com" required>
-          </div> 
 
-          <div>
-        <label for="password" >Password:</label>
-        <input type="password" id="password" required>
-    </div>
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="John@gmail.com" required>
+        </div>
 
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+        </div>
+        <!-- I shouldn't be able to select multiple radio buttons -->
         <h2 id="optional">Optional Information</h2>
 
         <div id="male">
-        <input type="radio" id="radio">
-        <label for="radio"id="radio">Male</label>
-    </div>
+            <input type="radio" id="radio">
+            <label for="radio" id="radio">Male</label>
+        </div>
 
         <div id="female">
-        <input type="radio" id="radio2">
-        <label for="radio" >Female</label>
-    </div>    
+            <input type="radio" id="radio2">
+            <label for="radio">Female</label>
+        </div>
 
         <div id="prefer">
-        <input type="radio" id="radio3">
-        <label for="radio" >Prefer not to say</label>
-    </div> 
+            <input type="radio" id="radio3">
+            <label for="radio">Prefer not to say</label>
+        </div>
 
         <div id="birth">
-        <label for="birthday" >Birthday:</label>
-        <input type="date" id="birthday">
-    </div>
-
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday">
+        </div>
+        <!-- this checkbox should be required -->
         <div id="check">
-        <label for="checkbox" >I agree to the terms and conditions</label>
-        <input type="checkbox" id="checkbox">
+            <label for="checkbox">I agree to the terms and conditions</label>
+            <input type="checkbox" id="checkbox">
 
-</div>
+        </div>
 
         <button>Submit Registration</button>
 
     </form>
 </body>
+
 </html>
