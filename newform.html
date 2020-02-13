@@ -7,40 +7,59 @@
     <link rel="stylesheet" href="newform.css">
 </head>
 <body>
-    <form id="container" action="">
+    <form class="container" action="">
 
         <h1>User Registration Form</h1>
 
         <h2 id="info">User Information</h2>
 
-        <label for="firstName" id="firstName">First Name:</label>
+        <div id="First">
+            <label for="firstName" >First Name:</label>
         <input id="firstName" type="text" placeholder="John" required>
+     </div>
 
-        <label for="lastName" id="lastName">Last Name:</label>
-        <input id="lastName" type="text" placeholder="Smith" required>
-
-        <label for="email" id="email">Email:</label>
+        <div>
+            <label for="lastName" >Last Name:</label>
+                <input id="lastName" type="text" placeholder="Smith" required>
+        </div>
+        
+        <div >
+        <label for="email" >Email:</label>
         <input id="email" type="email" placeholder="John@gmail.com" required>
+          </div> 
 
-        <label for="password" id="password">Password:</label>
+          <div>
+        <label for="password" >Password:</label>
         <input type="password" id="password" required>
+    </div>
 
         <h2 id="optional">Optional Information</h2>
 
+        <div>
         <input type="radio" id="radio">
-        <label for="radio" id="radio">Male</label>
+        <label for="radio"id="radio">Male</label>
+    </div>
 
+        <div>
         <input type="radio" id="radio2">
-        <label for="radio" id="radio2">Female</label>
+        <label for="radio" >Female</label>
+    </div>    
 
+        <div>
         <input type="radio" id="radio3">
-        <label for="radio" id="radio3">Prefer not to say</label>
+        <label for="radio" >Prefer not to say</label>
+    </div> 
 
-        <label for="birthday" id="birthday">Birthday:</label>
-        <input type="birthday" id="birthday">
+        <div>
+        <label for="birthday" >Birthday:</label>
+        <input type="date" id="birthday">
+    </div>
 
-        <label for="checkbox" id="checkbox">I agree to the terms and conditions</label>
+        <div>
+        <label for="checkbox" >I agree to the terms and conditions</label>
         <input type="checkbox" id="checkbox">
+
+</div>
 
         <button>Submit Registration</button>
 
